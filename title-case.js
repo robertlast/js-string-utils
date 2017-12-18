@@ -1,8 +1,8 @@
 "use strict";
-var capitalizeWord = require('lodash/capitalize');
+var capitalizeWord = require('./capitalize');
 /**
  * Returns the given string in title case (capitalize first letter of each word).
- * TODO: Use _.capitalize instead?
+ * TODO: Use _.capitalize or _.startCase(_.toLower(str)) ?
  * @param {string} str - The string to format.
  * @returns {string} - Formatted string.
  */
