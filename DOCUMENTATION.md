@@ -30,33 +30,12 @@ Returns the given string with first letter capitalized and the rest lowercase.
 
 
 
-### index.js
-
-
-#### module.exports() 
-
-Utilities for working with strings.
-
-
-
-
-
-
-##### Returns
-
-
-- `Void`
-
-
-
-
 ### is-date.js
 
 
 #### isDateValue(val) 
 
 Is the given value a date?
-TODO: Uses RegEx, use Moment library instead?
 
 
 
