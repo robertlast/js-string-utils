@@ -6,7 +6,7 @@
 ### capitalize.js
 
 
-#### module.exports(str) 
+#### capitalizeWord(str) 
 
 Returns the given string with first letter capitalized and the rest lowercase.
 
