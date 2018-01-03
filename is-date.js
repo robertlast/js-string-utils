@@ -6,7 +6,9 @@ const ISO8601_DATE_FORMAT = /^\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}(:\d{2})?)?(\.\d{2,5
  * @param {string} val - The value to check.
  * @returns {boolean}
  */
-module.exports = function isDateValue(val) {
+function isDateValue(val) {
 	// Use a RegEx to check if the string is in ISO 8601 format:
 	return ISO8601_DATE_FORMAT.test(val);
 };
+
+module.exports = isDateValue;

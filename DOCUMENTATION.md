@@ -53,7 +53,7 @@ Utilities for working with strings.
 ### is-date.js
 
 
-#### module.exports(val) 
+#### isDateValue(val) 
 
 Is the given value a date?
 TODO: Uses RegEx, use Moment library instead?
