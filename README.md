@@ -195,7 +195,7 @@ Is the given value true (boolean)?
 ### parse.js
 
 
-#### module.exports(str) 
+#### parse(str) 
 
 Converts a string to a non-string value if possible. 
 Can be used as a reviver function for JSON.parse.
