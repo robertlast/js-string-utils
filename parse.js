@@ -10,10 +10,11 @@ var isDateValue = require('./is-date');
  * Converts a string to a non-string value if possible. 
  * Can be used as a reviver function for JSON.parse.
  * e.g. converts 'true'->true, 'null'->null, '3'->3.
+ * @name parse
  * @param {string} str - The string to convert.
  * @returns {undefined|boolean|null|number|Date|string}
  */
-module.exports = function convertStringToValue(str) {
+module.exports = function parse(str) {
 	if (isEmptyValue(str)) {
 		return null;
 	} else if (isTrueValue(str)) {
@@ -30,3 +31,5 @@ module.exports = function convertStringToValue(str) {
 		return str;
 	}
 };
+
+convertStringToValue;
