@@ -1,9 +1,12 @@
 "use strict";
 /**
  * Is the given value null?
- * @param {string} val - The value to check.
+ * @function isNull
+ * @param {string} val The value to check.
  * @returns {boolean}
  */
-module.exports = function isNullValue(val) {
+function isNull(val) {
 	return (val === null || val === 'null');
 };
+
+module.exports = isNull;

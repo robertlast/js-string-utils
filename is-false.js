@@ -1,9 +1,12 @@
 "use strict";
 /**
  * Is the given value false (boolean)?
- * @param {string} val - The value to check.
+ * @function isFalse
+ * @param {string} val The value to check.
  * @returns {boolean}
  */
-module.exports = function isFalseValue(val) {
+function isFalse(val) {
 	return (val === 'false' || val === 'False' || val === false);
 };
+
+module.exports = isFalse;

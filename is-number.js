@@ -1,10 +1,13 @@
 "use strict";
 /**
  * Is the given value a number?
- * @param {string} val - The value to check.
+ * @function isNumber
+ * @param {string} val The value to check.
  * @returns {boolean}
  */
-module.exports = function isNumberValue(val) {
+function isNumber(val) {
 	var num = Number(val);
 	return (!isNaN(num) && isFinite(num));
 };
+
+module.exports = isNumber;

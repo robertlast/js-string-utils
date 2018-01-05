@@ -6,7 +6,7 @@
 ### capitalize.js
 
 
-#### capitalizeWord(str) 
+#### capitalize(str) 
 
 Returns the given string with first letter capitalized and the rest lowercase.
 
@@ -17,7 +17,7 @@ Returns the given string with first letter capitalized and the rest lowercase.
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| str | `string`  | - The string to capitalize. | &nbsp; |
+| str | `string`  | The string to be capitalize. | &nbsp; |
 
 
 
@@ -33,9 +33,9 @@ Returns the given string with first letter capitalized and the rest lowercase.
 ### is-date.js
 
 
-#### isDateValue(val) 
+#### isDate(val) 
 
-Is the given value a date?
+Does the given string represent a date?
 
 
 
@@ -44,7 +44,7 @@ Is the given value a date?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| val | `string`  | - The value to check. | &nbsp; |
+| val | `string`  | The string value to check. | &nbsp; |
 
 
 
@@ -60,7 +60,7 @@ Is the given value a date?
 ### is-empty.js
 
 
-#### module.exports(val) 
+#### isEmpty(val) 
 
 Is the given value an empty string or undefined?
 
@@ -71,7 +71,7 @@ Is the given value an empty string or undefined?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| val | `string`  | - The value to check. | &nbsp; |
+| val | `string`  | The value to check. | &nbsp; |
 
 
 
@@ -87,7 +87,7 @@ Is the given value an empty string or undefined?
 ### is-false.js
 
 
-#### module.exports(val) 
+#### isFalse(val) 
 
 Is the given value false (boolean)?
 
@@ -98,7 +98,7 @@ Is the given value false (boolean)?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| val | `string`  | - The value to check. | &nbsp; |
+| val | `string`  | The value to check. | &nbsp; |
 
 
 
@@ -114,7 +114,7 @@ Is the given value false (boolean)?
 ### is-null.js
 
 
-#### module.exports(val) 
+#### isNull(val) 
 
 Is the given value null?
 
@@ -125,7 +125,7 @@ Is the given value null?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| val | `string`  | - The value to check. | &nbsp; |
+| val | `string`  | The value to check. | &nbsp; |
 
 
 
@@ -141,7 +141,7 @@ Is the given value null?
 ### is-number.js
 
 
-#### module.exports(val) 
+#### isNumber(val) 
 
 Is the given value a number?
 
@@ -152,7 +152,7 @@ Is the given value a number?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| val | `string`  | - The value to check. | &nbsp; |
+| val | `string`  | The value to check. | &nbsp; |
 
 
 
@@ -168,7 +168,7 @@ Is the given value a number?
 ### is-true.js
 
 
-#### module.exports(val) 
+#### isTrue(val) 
 
 Is the given value true (boolean)?
 
@@ -179,7 +179,7 @@ Is the given value true (boolean)?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| val | `string`  | - The value to check. | &nbsp; |
+| val | `string`  | The value to check. | &nbsp; |
 
 
 
@@ -224,10 +224,9 @@ e.g. converts 'true'->true, 'null'->null, '3'->3.
 ### title-case.js
 
 
-#### module.exports(str) 
+#### toTitleCase(str) 
 
 Returns the given string in title case (capitalize first letter of each word).
-TODO: Use _.capitalize or _.startCase(_.toLower(str)) ?
 
 
 
@@ -236,7 +235,7 @@ TODO: Use _.capitalize or _.startCase(_.toLower(str)) ?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| str | `string`  | - The string to format. | &nbsp; |
+| str | `string`  | The string to format. | &nbsp; |
 
 
 
@@ -244,7 +243,7 @@ TODO: Use _.capitalize or _.startCase(_.toLower(str)) ?
 ##### Returns
 
 
-- `string`  - Formatted string.
+- `string`  Formatted string.
 
 
 
