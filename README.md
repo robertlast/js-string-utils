@@ -1,6 +1,6 @@
 # string-utils *0.1.0*
 
-> Utilities for dealing with strings.
+> Utilities for working with strings.
 
 
 ### capitalize.js
@@ -44,7 +44,7 @@ Does the given string represent a date?
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| val | `string`  | The string value to check. | &nbsp; |
+| val | `string`  | The value to check. | &nbsp; |
 
 
 
@@ -208,7 +208,7 @@ e.g. converts 'true'->true, 'null'->null, '3'->3.
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| str | `string`  | - The string to convert. | &nbsp; |
+| str | `string`  | The string to convert. | &nbsp; |
 
 
 

@@ -11,7 +11,7 @@ var isDate = require('./is-date');
  * Can be used as a reviver function for JSON.parse.
  * e.g. converts 'true'->true, 'null'->null, '3'->3.
  * @function parse
- * @param {string} str - The string to convert.
+ * @param {string} str The string to convert.
  * @returns {undefined|boolean|null|number|Date|string}
  */
 function parse(str) {
