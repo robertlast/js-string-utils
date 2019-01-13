@@ -244,8 +244,3 @@ Returns the given string in title case (capitalize first letter of each word).
 
 
 - `string`  Formatted string.
-
-
-
-
-*Documentation generated with [doxdox](https://github.com/neogeek/doxdox).*
