@@ -12,4 +12,4 @@ function isDate(val) {
 	return ISO8601_DATE_FORMAT.test(val);
 };
 
-module.exports = isDateValue;
+module.exports = isDate;
